@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #01ca01;
+  }
+  
+  header, nav, footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  h3 {
+    color: rgb(255, 255, 255);
+  }
+  
+  #historia {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  #historia p {
+    margin-bottom: 15px;
+  }
+  
+  #embalagens {
+    text-align: center;
+  }
+  
+  #embalagens h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+  #embalagens img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: #ffffff;
+    color: rgb(1, 202, 1);
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #868686
+  }
+  

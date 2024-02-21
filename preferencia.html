@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="preferencia.css">
+    <title>Preferência de Refrigerante</title>
+    <script src="preferencia.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha seu refrigerante favorito</h1>
+        <label for="sodaName">Nome do Refrigerante:</label>
+        <input type="text" id="sodaName">
+        <label for="rating">Classificação:</label>
+        <input type="range" id="rating" min="1" max="10" value="5">
+        <button onclick="submitRating()">Enviar</button>
+        <div id="result"></div>
+        <h2>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</h2>
+        <button onclick="voltarAoInicio()"> ←Voltar ao Início</button>
+    </div>
+    
+</body>
+</html>
